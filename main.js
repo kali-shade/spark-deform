@@ -49,7 +49,7 @@ const dragRadius = dyno.dynoFloat(0.5);
 const dragActive = dyno.dynoFloat(0.0);
 const bounceTime = dyno.dynoFloat(0.0);
 const bounceBaseDisplacement = dyno.dynoVec3(new THREE.Vector3(0, 0, 0));
-const dragIntensity = dyno.dynoFloat(3.0);
+const dragIntensity = dyno.dynoFloat(5.0);
 const bounceAmount = dyno.dynoFloat(0.5);
 let isBouncing = false;
 
